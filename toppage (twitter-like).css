@@ -1,0 +1,93 @@
+/*初期設定のリセット*/
+*{
+    margin:0;
+
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.container{
+    height:100%;
+    width:100%
+}
+.main{
+    display:flex;
+    height:95%;
+}
+
+.left-header{
+    position:relative;
+    background-color:burlywood;
+    text-align:center;
+    flex:auto;
+    height:100%;
+}
+
+.right-body{
+    position:relative;
+    background-color:white;
+    text-align:center;
+    flex:auto;
+    height:100%;
+      
+}
+.header-comments, .main-comments{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:inline-block;
+    
+}
+.main-comments h1{
+    margin-bottom:30px;
+}
+.login{
+    background-color:rgba(0, 0, 139, 0.7);
+    border-radius:5px;
+    color:white;
+    text-decoration:none;
+    padding:10px 0;
+    display:inline-block;
+    width:300px;
+}
+.new{
+    margin-top:15px;
+    background-color:white;
+    border:1px solid rgba(0, 0, 139, 0.7);
+    border-radius:5px;
+    color:rgba(0, 0, 139, 0.7);
+    text-decoration:none;
+    padding:10px 0;
+    display:inline-block;
+    width:300px;
+}
+
+.login:hover{
+    background-color:rgba(0, 0, 139, 1);
+}
+.new:hover{
+    background-color:rgba(0, 0, 139, 0.1);
+}
+footer{
+    position:relative;
+    background-color:rgba(196, 195, 195, 0.5);
+    border-top:1px solid gray;
+    height:5%;
+    width:100%;   
+}
+footer ul{
+    padding:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    list-style:none;
+    display:flex;
+}
+footer li{
+    display:inline-block;
+    padding-right:15px;
+    text-align:center;
+}

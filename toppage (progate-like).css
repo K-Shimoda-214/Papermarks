@@ -1,0 +1,81 @@
+*{
+    margin:0
+}
+html, body{
+    width:100%;
+}
+
+header{
+    background-color:purple;
+    height:70px;
+    width:100%;
+    position:relative;
+}
+.logo h3{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:2%;
+    transform:translate(0, -50%);
+}
+.btns{
+    display:inline-block;
+    display:flex;
+    color:white;
+    position:absolute;
+    top:50%;
+    transform:translate(0, -50%);
+    right:2%;
+}
+.btns a{
+    color:white;
+    text-decoration:none;
+}
+.login{
+    background-color:rgba(128, 0, 128, 1);
+    margin-right:15px;
+    padding:10px 20px;
+    border-radius:8px;
+}
+.registration{
+    background-color:rgba(4, 133, 4, 1);
+    padding:10px 20px;
+    border-radius:8px;
+}
+.login:hover{
+    background-color:rgba(245, 167, 245, 0.7);
+    transition:0.3s;
+}
+.registration:hover{
+    background-color:rgba(142, 243, 142, 0.7);
+    transition:0.3s;
+}
+.main{
+    height:750px;
+    position:relative;
+    background-image:url(file:///C:/Users/Nishida%20Lab%20VEVO/Desktop/shimoda/programming/airbGFVS3642_TP_V.jpg);
+    background-size:cover;
+}
+.title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color:rgba(255,255,255,0.3);
+    padding:70px 100px;
+    border-radius:12px;
+    text-align:center;
+}
+.title a{
+    display:inline-block;
+    text-decoration:none;
+    margin-top:15px;
+    background-color:rgba(4, 133, 4, 1);
+    color:white;
+    padding:10px 20px;
+    border-radius:8px;
+}
+.title a:hover{
+    background-color:rgba(142, 243, 142, 0.7);
+    transition:0.3s;    
+}
