@@ -1,0 +1,90 @@
+*{
+    margin:0;
+}
+html, body{
+    height:100%;
+}
+
+.main{
+    background-color:rgb(241, 241, 241);
+    height:90%;
+    position:relative;
+}
+/*ここはコメントなので清書時に消す*/
+.comment{
+    height:700px;
+    width:500px;
+    position:absolute;
+    top:50%;
+    right:50%;
+    transform:translate(0, -50%);
+    margin-right:20px;
+
+    z-index:10;
+}
+.comment p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index:10;
+    background-color:rgb(255, 255, 255);
+}
+/*ここまでコメント*/
+
+.main img{
+    height:700px;
+    width:500px;
+    position:absolute;
+    top:50%;
+    right:50%;
+    transform:translate(0, -50%);
+    margin-right:20px;
+}
+
+.login{
+    border:1px solid rgb(185, 185, 185);
+    background-color:white;
+    width:500px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(0, -50%);
+    margin-left:20px;
+    text-align:center;
+    border-radius:15px;
+}
+form input{
+    width:300px;
+    padding:10px;
+}
+.password{
+    margin-top:5px;
+}
+.form-input input{
+    border:1px solid rgb(185, 185, 185);
+    border-radius:10px;
+}
+.form-submit input{
+    margin-top:10px;
+    background-color:purple;
+    color:white;
+    border-radius:10px;
+}
+.form-submit input:hover{
+    background-color:rgba(128, 0, 128, 0.7);
+    transition:0.3s;
+    cursor:pointer;
+}
+hr{
+    margin:10px;
+}
+.facebook{
+    display:inline-block;
+    border-radius:5px;
+    background-color:rgb(23, 23, 87);
+    color:white;
+    text-decoration:none;
+    padding:5px 15px;
+    margin-top:5px;
+}
