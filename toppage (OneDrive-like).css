@@ -1,0 +1,135 @@
+*{
+    margin:0;
+}
+html, body{
+    width:100%;
+}
+header{
+    height:50px;
+    width:100%;
+    background-color:white;
+    position:relative;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+}
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    color:purple;
+    position:absolute;
+    top:50%;
+    left:5%;
+    transform:translate(0, -50%);    
+}
+.login-btn a{
+    position:absolute;
+    display:inline-block;
+    padding:10px;
+    top:50%;
+    left:85%;
+    transform:translate(0, -50%);
+    background-color:white;
+    color:purple;
+    text-decoration:none;
+}
+
+.login-btn a:hover{
+    background-color:rgb(190, 190, 190);
+    transition:0.3s;
+}
+
+.title{
+    background-color:rgb(231, 231, 231);
+    height:500px;
+    position:relative;
+    width:100%;
+}
+.textbox{
+    position:absolute;
+    top:50%;
+    left:5%;
+    transform:translate(0, -50%);
+    width:50%;
+}
+img{
+    position:absolute;
+    top:50%;
+    right:0;
+    transform:translate(0, -50%);
+    height:500px;
+    width:50%;
+}
+
+.login{
+    margin-top:30px;
+    display:inline-block;
+    background-color:purple;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    padding:10px;
+    width:70%;
+}
+.signup{
+    margin-top:10px;
+    padding:10px;
+    width:70%;
+    display:inline-block;
+    background-color:white;
+    color:purple;
+    border:1px solid purple;
+    text-decoration:none;
+    text-align:center;
+}
+.login:hover{
+    background-color:rgba(128, 0, 128, 0.7);
+    transition:0.3s;
+}
+.signup:hover{
+    background-color:rgb(190, 190, 190);
+    transition:0.3s;
+}
+.contents h1{
+    text-align:center;
+    margin-top:40px;
+}
+.explanations{
+    display:flex;
+}
+.explanation{
+    margin-top:15px;
+    width:33%;
+    padding:20px;
+    text-align:center;
+}
+footer{
+    height:80px;
+    background-color:purple;
+    position:relative;
+}
+.footer-logo{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:5%;
+    transform:translate(0, -50%);
+}
+.footer-contents{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+footer a{
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    border-right:1px solid white;
+    border-left:1px solid white;
+    padding:0 5px;
+}
+footer a:hover{
+    text-decoration:underline;
+}
